@@ -43,13 +43,13 @@
         max-width: 100%;
 
         &--1{
-            @include media-breakpoint-down(sm){
+            @include media-breakpoint-down(md){
                 display: none;
             }
         }
 
         &--2{
-            @include media-breakpoint-up(sm){
+            @include media-breakpoint-up(md){
                 display: none;
             }
         }

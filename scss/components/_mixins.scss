@@ -12,3 +12,17 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+//HORIZONTAL CENTER
+@mixin bottomCenter{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+// TRANSISTION PROPERTY
+@mixin transitionProperty{
+    transition-duration: 1000ms;
+    transition-property: all;
+}
+
