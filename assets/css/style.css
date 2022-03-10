@@ -11389,6 +11389,22 @@ textarea.form-control-lg {
   background-color: #000;
 }
 
+.btp-button {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+}
+.btp-button i {
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .intro-section {
   background: linear-gradient(to right, rgba(48, 63, 159, 0.95), rgba(0, 188, 212, 0.95));
   padding: 10rem 0 0 0;

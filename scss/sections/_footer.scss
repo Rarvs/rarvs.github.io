@@ -71,3 +71,18 @@
 .footer-copy{
     background-color: $black;
 }
+
+.btp-button{
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    right: 1.875rem;
+    bottom: 1.875rem;
+
+    i{
+        color: $white;
+        font-size: 1rem;
+
+        @include absoluteCenter;
+    }
+}
