@@ -14,7 +14,7 @@
 }
 
 //HORIZONTAL CENTER
-@mixin bottomCenter{
+@mixin horizontalCenter{
     position: absolute;
     left: 50%;
     transform: translate(-50%);

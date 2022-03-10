@@ -31,13 +31,13 @@
             <a class="nav-link active" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link " href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -47,7 +47,7 @@
     </div>
   </nav>
 
-  <!-- INTRO SECTION -->
+  <!-- START INTRO SECTION -->
   <section id="home" class="intro-section">
     <div class="container">
       <div class="row align-items-center text-white">
@@ -56,14 +56,14 @@
           <h1 class="display-2">
             <span class="display-2--intro">Hello! I'm Rafael</span>
             <span class="display-2--description lh-base">
-              I'm a Computer Engineering student and I enjoy making Android Apps.
+              I'm a Computer Engineering student and an I.T. Technician. I make Android Apps.
             </span>
           </h1>
-          <a href="#contact">
+          <a href="#contact" class="no-text-decoration">
             <button type="button" class="rounded-pill btn-rounded">
               Contact
               <span>
-                <i class="fas fa-phone"></i>
+                <i class="fas fa-envelope"></i>
               </span>
             </button>
           </a>
@@ -89,7 +89,7 @@
     </svg>
   </section>
 
-  <!-- PORTFOLIO SECTION -->
+  <!-- START PORTFOLIO SECTION -->
   <section id="portfolio" class="portfolio">
     <div class="container">
       <div class="row text-center">
@@ -198,8 +198,7 @@
     </div>
   </section>
 
-
-  <!-- START ABOUT-->
+  <!-- START ABOUT SECTION-->
   <section id="about" class="about">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#ffffff" fill-opacity="1" d="M0,64L720,64L1440,128L1440,0L720,0L0,0Z"></path>
@@ -208,7 +207,7 @@
       <div class="row text-center text-white">
         <h1 class="display-3 fw-bold">About</h1>
         <hr style="width: 30%; height: 3px;" class="mx-auto">
-        <p class="lead pt-1">Little bit more about me on my resume:</p>
+        <p class="lead pt-1">More about me on my resume:</p>
         <a href="resume.pdf" download filename="rafael-rarvs-resume">
           <button type="button" class="rounded-pill btn-rounded">
             Resume
@@ -226,50 +225,84 @@
             <!-- ACCORDION ITEM 1 -->
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="false" aria-controls="collapseOne">
-                  Experiences
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Skills
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#aboutAccordion">
                 <div class="accordion-body">
-                  I have worked mostly as a freelancer <strong>android developer</strong>, creating solution with native
-                  (Kotlin/Java) and Flutter development for my clients. I've also worked as a <strong>Junior Web and
-                    mobile developer</strong> at Aldeia Consultoria, working with my team to provide the most adequate
-                  product to satisfy our clients needs.
+                  <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                      <h3 class="display-6">Front end</h3>
+                      <ul>
+                        <li>Flutter</li>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                        <li>Sass</li>
+                        <li>Bootstrap</li>
+                        <li>XML</li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                      <h3 class="display-6">Back end</h3>
+                      <ul>
+                        <li>Spring</li>
+                        <li>Node.js</li>
+                        <li>XAMPP</li>
+                        <li>MySQL</li>
+                        <li>phpMyAdmin</li>
+                        <li>Firebase</li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                      <h3 class="display-6">Languages</h3>
+                      <ul>
+                        <li>C/C++</li>
+                        <li>Kotlin</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>Dart</li>
+                        <li>Python</li>
+                        <li>PHP</li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                      <h3 class="display-6">Other</h3>
+                      <ul>
+                        <li>Android</li>
+                        <li>Git</li>
+                        <li>Clean Code</li>
+                        <li>Clean Architecture</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
             <!-- ACCORDION ITEM 2 -->
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                  Knowledges
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseOne">
+                  Experiences
                 </button>
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
                 data-bs-parent="#aboutAccordion">
-
                 <div class="accordion-body">
-                  <ul>
-                    <li>Git</li>
-                    <li>C/C++</li>
-                    <li>PHP</li>
-                    <li>Flutter</li>
-                    <li>Dart</li>
-                    <li>Kotlin</li>
-                    <li>Bootstrap</li>
-                    <li>Javascript</li>
-                    <li>React</li>
-                    <li>Firebase</li>
-                    <li>SQL</li>
-                  </ul>
+                  Experienced freelancer <strong>android developer</strong>, creating solution with native
+                  (Kotlin/Java) and Flutter development for my clients. Worked as a <strong>Junior Web and
+                    mobile developer</strong> at Aldeia Consultoria, working with my team to provide the most adequate
+                  product to satisfy our clients needs. Currently working as <strong> CTO </strong> at Aldeia
+                  Consultoria. Visit our web site at <a href="http://www.aldeiaconsultoriajr.com/">Aldeia
+                    Consultoria</a>.
                 </div>
               </div>
             </div>
-            <!-- ACCORDION ITEM 3 -->
+            
+            <!-- ACCORDION ITEM 3
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -284,7 +317,7 @@
                   solution for your problem or fill your developer role at yout company.
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -294,8 +327,7 @@
     </svg>
   </section>
 
-
-  <!-- SERVICES SECTION -->
+  <!-- START SERVICES SECTION -->
   <section id="services" class="services">
     <div class="container">
       <div class="row text-center">
@@ -329,11 +361,11 @@
           <div class="services-column__content text-start">
             <div class="icon d-block fas fa-mobile-alt"></div>
             <h3 class="display-3--title mt-1">Aplications</h3>
-            <p class="lh-lg"> Make something that will impact people lives, increase productivity or help you on your
-              daily basis</p>
-            <button type="button" class="rounded-pill btn-rounded border-primary">More info<span>
+            <p class="lh-lg"> Make something that will <strong>impact people lives</strong>, increase productivity or help you on your
+              daily basis. <strong>Responsive, fast and beautiful</strong> applications made with Flutter or native with Kotlin.</p>
+            <!-- <button type="button" class="rounded-pill btn-rounded border-primary" a-href="#contact">Get started<span>
                 <i class="fas fa-arrow-right"></i>
-              </span></button>
+              </span></button> -->
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services-column mt-4 text-end">
@@ -353,12 +385,11 @@
           <div class="services-column__content">
             <div class="icon d-block fas fa-code"></div>
             <h3 class="display-3--title mt-1">Web development</h3>
-            <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ipsum ad eligendi.
-              Voluptate impedit ea dolores voluptatum. Est commodi omnis saepe mollitia illum quisquam quasi a,
-              tempora nobis.</p>
-            <button type="button" class="rounded-pill btn-rounded border-primary">More info
+            <p class="lh-lg">Landing pages, web applications and much more. <strong>Leverage your business</strong> on the internet,
+              increase your visibility and find new clients.</p>
+            <!-- <button type="button" class="rounded-pill btn-rounded border-primary">More info
               <span><i class="fas fa-arrow-right"></i></span>
-            </button>
+            </button> -->
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services-column mt-4 text-start">
@@ -373,12 +404,11 @@
           <div class="services-column__content">
             <div class="icon d-block fas fa-database"></div>
             <h3 class="display-3--title mt-1">Data analysis</h3>
-            <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ipsum ad eligendi.
-              Voluptate impedit ea dolores voluptatum. Est commodi omnis saepe mollitia illum quisquam quasi a,
-              tempora nobis.</p>
-            <button type="button" class="rounded-pill btn-rounded border-primary">More info<span>
+            <p class="lh-lg">Get a better interpretation of your data sets. Discover <strong>trends and patterns</strong> that can help
+              predict outcomes on your organization. Analyse the past for an <strong>assertive future</strong></p>
+            <!-- <button type="button" class="rounded-pill btn-rounded border-primary">More info<span>
                 <i class="fas fa-arrow-right"></i>
-              </span></button>
+              </span></button> -->
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services-column mt-4 text-end">
@@ -390,17 +420,155 @@
     </div>
   </section>
 
+  <!-- START CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold -text-capitalize">Contact Me</h1>
+        <div class="heading-line"></div>
+        <p class="lh-lg"></p>
+      </div>
+      <div class="row text-white">
+        <div class="col-12 col-lg-6 gradient shadow p-3">
+          <div class="cta-info w-100">
+            <h4 class="display-4 fw-bold">Send me an email!</h4>
+            <p class="lh-lg">
+              I will get back to you as soon as possible!
+            </p>
+            <h3 class="display-3--brief">
+              You can send me:
+            </h3>
+            <ul class="cta-info__list">
+              <li>Project info</li>
+              <li>Job offer</li>
+              <li>Questions and feedback</li>
+            </ul>
+            <h3 class="display-3--brief">
+              Thank you for your time!
+            </h3>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 bg-white shadow p-3">
+          <div class="form w-100 pb-2">
+            <!-- <h4 class="display-3--title mb-5">Start your project</h4> -->
+            <form action="https://formsubmit.co/rafael.rarvs@gmail.com" class="row" method="POST" id="form">
+              <div class="col-lg-6 col-md-6 mb-3">
+                <input type="text" placeholder="First Name" id="inputFirstName"
+                  class="shadow form-control form-control-lg">
+              </div>
+              <div class="col-lg-6 col-md-6 mb-3">
+                <input type="text" placeholder="Last Name" id="inputLastName"
+                  class="shadow form-control form-control-lg">
+              </div>
+              <div class="col-lg-12 mb-3">
+                <input type="email" placeholder="Email address" id="inputEmail"
+                  class="shadow form-control form-control-lg" required>
+              </div>
+              <div class="col-lg-12 mb-3">
+                <textarea name="message" placeholder="Message" id="message" rows="5"
+                  class="shadow form-control form-control-lg" required></textarea>
+              </div>
+              <div class="text-center d-grid mt-1">
+                <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3" onclick="showThankYou()"
+                  href="#thank-you">
+                  Send
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="container text-center align-items-center text-dark" style="display: none;" id="thank-you">
+            <h3 class="display-5 pt-3">Thank you!</h3>
+            <button type="button" class="btn btn-primary rounded-pill mt-3" onclick="hideThankYou()">
+              <i class="fas fa-close"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 contact-box p-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <line x1="18" y1="6" x2="18" y2="6.01" />
+              <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+              <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+              <line x1="9" y1="4" x2="9" y2="17" />
+              <line x1="15" y1="15" x2="15" y2="20" />
+            </svg>
+          </div>
+          <div class="contact-box__info">
+            <a href="https://www.google.com.br/search?q=po%C3%A7os+de+caldas&sxsrf=APq-WBtzC2UgxpOsIs38OGV3fPdBxvWKVQ%3A1646846247498&source=hp&ei=J-EoYuaWHLXX1sQPlauN4AI&iflsig=AHkkrS4AAAAAYijvN-HuzHnE3ozAb1X4tc31OU3hCj3c&ved=0ahUKEwimxtGsxLn2AhW1q5UCHZVVAywQ4dUDCAc&uact=5&oq=po%C3%A7os+de+caldas&gs_lcp=Cgdnd3Mtd2l6EAMyCAgAEIAEELEDMggILhCABBDUAjIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUILhCABDIFCAAQgAQyBQgAEIAEOgcIIxDqAhAnOgsIABCABBCxAxCDAToLCC4QgAQQsQMQgwE6CwguEIAEEMcBEKMCOg4ILhCABBCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhCABBCxAzoLCC4QgAQQxwEQrwFQ5ARYphFgvhJoAXAAeACAAYcBiAGpDZIBBDAuMTSYAQCgAQGwAQE&sclient=gws-wiz"
+              class="contact-box__info--title">Poços de Caldas</a>
+            <p class="contact-box__info--subtitle">Minas Gerais, BR</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 contact-box p-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building-community" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M8 9l5 5v7h-5v-4m0 4h-5v-7l5 -5m1 1v-6a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v17h-8" />
+              <line x1="13" y1="7" x2="13" y2="7.01" />
+              <line x1="17" y1="7" x2="17" y2="7.01" />
+              <line x1="17" y1="11" x2="17" y2="11.01" />
+              <line x1="17" y1="15" x2="17" y2="15.01" />
+            </svg>
+          </div>
+          <div class="contact-box__info">
+            <a href="http://www.aldeiaconsultoriajr.com/" class="contact-box__info--title">Aldeia Consultoria Junior</a>
+            <p class="contact-box__info--subtitle">Working from home</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-sm">
+      <div class="container">
+        <div class="row py-4 text-center text-white">
+          <div class="col-lg-5 col-md-6 mb-md-0">Connect with me on social media</div>
+          <div class="col-lg-7 col-md-6">
+            <a href="https://github.com/Rarvs">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rafael-r-valeriano-silva-59807b184/">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copy">
+      <div class="container">
+        <div class="row py-4 text-center text-white">
+          <p class="lh-sm mb-md-0">
+            <small>Made with <strong>Bootstrap, HTML, Sass </strong>and <strong><i class="fas fa-heart" style="color: red;"></i></strong> by me!</small>
+          </p> 
+        </div>
+      </div>
+  </footer>
 
 
   <!-- SCRIPTS -->
-  <script src="/assets/vendors/js/glightbox.min.js"></script>
-  <script type="text/javascript">
-    const lightbox = GLightbox({
-      'href': 'https://www.youtube.com/watch?v=Ga6RYejo6Hk',
-      'type': 'video',
-      'source': 'youtube', //vimeo, youtube or local
-      'width': 900,
-    });
+  <script>
+    function showThankYou() {
+      var thanks = document.getElementById("thank-you");
+      thanks.style.display = "block";
+      var form = document.getElementById("form");
+      form.style.display = "none";
+    }
+
+    function hideThankYou() {
+      var thanks = document.getElementById("thank-you");
+      thanks.style.display = "none";
+      var form = document.getElementById("form");
+      form.style.display = "flex";
+    }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
